@@ -1,0 +1,11 @@
+{
+  "name": "magic-link-saas-typescript",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/main.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx test/magic_link_service.test.ts"
+  },
+  "devDependencies": { "tsx": "^4.19.0", "typescript": "^5.6.3" }
+}
